@@ -1,0 +1,35 @@
+*{
+    font-size: 1,5rem;
+    color: turquoise;
+
+}
+
+h1{
+    color: blueviolet;
+    font-weight: 900;
+}
+
+
+/* '.' burada class ismi yerine geçer yazmaksak hiçbir anlamı olmaz kodumuz çalışmaz */
+ .highlight{
+        font-size: 1.2rem;
+        color: blue;
+
+    }
+
+.center{
+    text-align: center;
+}  
+h1.center{
+    background-color: rgb(42, 165, 147);
+}
+
+.renk{
+    background-color: beige;
+}
+
+#p4{
+    color: red;
+}
+
+
