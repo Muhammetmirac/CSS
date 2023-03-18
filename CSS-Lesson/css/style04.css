@@ -1,0 +1,12 @@
+/* buraya html classlarımı bağlayarak yapcağım değişiklik ve ayarlamaları bütün classlara uygulamıs oluyorum
+html classının içerisinde  */
+
+h1{
+    font-size: 3rem;
+    color: blueviolet;
+
+}
+
+mark{
+    background-color: rgb(100, 181, 231);
+}
