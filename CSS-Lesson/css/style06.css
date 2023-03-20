@@ -1,0 +1,23 @@
+.baslik{
+    color:rgb(242, 22, 242) ;
+}
+h1.baslik{
+    color:rgb(219, 255, 18) ;
+}
+h1.baslik{
+    color:rgb(6, 158, 240) ;
+}
+h1{
+    color: blanchedalmond;
+}
+
+.{
+    color: blueviolet;
+}
+
+.renk{
+    color: black;
+}
+h1.baslik.renk{
+    color: darkslategrey;
+}

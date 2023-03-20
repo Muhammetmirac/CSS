@@ -1,0 +1,10 @@
+nav.main-menu{
+    background-color: lightgray;
+    text-align: center;
+
+}
+
+.aktive{
+    background-color: gray;
+    color: white;
+}
