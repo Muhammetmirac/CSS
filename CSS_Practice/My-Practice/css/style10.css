@@ -1,0 +1,13 @@
+a{
+
+}
+a:link{
+    color: blueviolet;
+}
+a:visited {
+    color: rgb(236, 133, 7);
+}
+a:hover{
+    color: rgb(3, 196, 245);
+    background-color: rgb(220, 220, 220);
+}

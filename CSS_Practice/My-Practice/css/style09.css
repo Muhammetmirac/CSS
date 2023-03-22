@@ -8,4 +8,11 @@ body{
 .h1{
     font-family: 'Nunito Sans', sans-serif
     
+    
+}
+h1.title{
+    text-decoration:underline rgb(255, 5, 5);
+    font-style: italic;
+    font-weight:600;
+    font-variant:normal;
 }
