@@ -1,0 +1,14 @@
+ul.lorem-list{
+list-style-type:'🍌';
+
+}
+
+.image{
+   list-style-position: inside;
+   line-height: 2rem;
+}
+
+/* line-height ==>  satır aralarındaki boşluk arttırmak için
+
+list-style-position==> satır başındaki simgenin satırda girinti mi çıkıntı mı olacağı 
+*/

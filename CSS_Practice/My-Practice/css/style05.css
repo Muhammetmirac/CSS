@@ -1,0 +1,10 @@
+.main-menu{
+    background-color: darksalmon;
+    color: black;
+    text-align: center;
+}
+
+.active{
+    background-color: blueviolet;
+    color: cadetblue;
+}

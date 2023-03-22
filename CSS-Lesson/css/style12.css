@@ -1,0 +1,68 @@
+
+body, html {
+    height: 100%;
+    font-size: 1.1em
+}
+
+.kutu1{
+    background-color: aqua;
+    width: 3cm;
+    height:25%;
+
+   ;
+}
+.kutu2{
+    background-color: rgb(234, 10, 40);
+    width: 300px;
+}
+.kutu3{
+    background-color: rgb(39, 220, 22);
+    width: 50%;
+    height: 300px;
+
+    font-size: 2em
+    
+}
+.kutu4{
+    background-color: rgb(250, 48, 210);
+    width: 50%;
+    height: 50%;
+    font-size: 2em
+    
+}
+.kutu5{
+    background-color: rgb(33, 5, 175);
+    width: 50vw;
+    font-size: 2rem;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /* 
+ yüzdeli verilem değerler kendinin parentinin boyuna göre ayarlar
+ px gibi değer verirsek ise parentlik bir durum olmaz verilen boyut ne ise o olur
+ vw-->viewport--> beyaz alanın yani tarayıcı safyasının tamamının boyutune göre oran alır
+
+ vw --> genişlik
+ vh --> yükseklik
+  */
+
+  /* 
+  font-size ile kullanılan 'em'  defaultta 1em dir
+ Kullanıldıgında parentini yazılan katsayısı kadar katlar
+
+ em --> kendi parentine bakar
+
+ rem--> ise en parent olan html ye bakar. defaul değer 16px = 1rem dir.
+  */

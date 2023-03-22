@@ -1,0 +1,40 @@
+a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+/* 
+sadece a tagı ile tüm linklerin stillerini değiştirmek için kullanılır
+*/
+
+a:link{
+    color: chocolate;
+}
+/* a:link ziyaret edilmemiş linklerin rengini ayarlamaya yarar */
+
+a:visited{
+    color: blueviolet;
+}
+/* 
+    a:visited ile ziayret edilmiş sitelerin renklerini ayarlarız
+ */
+
+
+ a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+ }
+
+ /* 
+ hover: mouse ile link üzerinde gezerken renk değiştieme için
+ text-decoration: metnin alt üst çizgi gibi stilleri için 
+ */
+
+ .title:hover{
+    color: rgb(249, 143, 13);
+    cursor:context-menu;
+ }
+
+ a:active{
+    color: chartreuse;
+ }

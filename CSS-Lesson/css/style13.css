@@ -1,0 +1,36 @@
+.kutu1{
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.kutu2{
+    background-color: blue;
+    
+    padding: 2rem;
+    
+}
+.kutu3{
+    background-color: rgb(56, 150, 74);
+    
+    padding: 10px 5px;
+    
+    
+}
+.kutu4{
+    background-color: rgb(190, 45, 176);
+    margin:  20px 30px 50px 50px;
+    
+    
+}
+
+em{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+/* 
+Inline elementlere sadece yatay padding ve
+margin uygulanabilir.
+*/
+
+
