@@ -1,0 +1,29 @@
+nav.main-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   
+}
+
+nav.main-menu li{
+    display: inline-block;
+   
+}
+nav.main-menu ul li a{
+    color: white;
+    display: inline-block;
+    background-color: grey;
+    padding: 8px 20px;
+    text-decoration: none;
+
+}
+nav.main-menu ul li a:hover{
+    background-color: rgb(85, 84, 84);
+    color: rgb(196, 138, 138);
+}
+
+
+nav.main-menu li.active{
+    background-color: rgb(62, 56, 56);
+}

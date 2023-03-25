@@ -1,0 +1,17 @@
+.title{
+    background-color: aqua;
+    display: inline-block;
+}
+em{
+    background-color: red;
+    display: block;
+}
+.hidden{
+    display: none;
+    /* gizlemek istediğimiz değerler için */
+}
+/* 
+display ile blok elemanı inline eleman gibi inline elemanı da blok eleman gibi kullanabiliriz.
+
+Ancak padding-margin özaelliğini kaybeder. Bunu çözümü de 'display:inline-block' şeklinde tercih etmektir
+*/

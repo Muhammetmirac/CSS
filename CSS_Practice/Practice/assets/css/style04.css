@@ -1,0 +1,44 @@
+.container{
+    background-color:lightgrey;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+}
+h1{
+    font-size: 1rem;
+    color: red;
+    margin: 0;
+    padding: 1rem 0 0.5rem 0.5rem;
+   
+}
+
+img{
+    width: 100%;
+}
+ .container p{
+    color: rgba(34, 26, 37, 0.71);
+    font-size: 20px;
+    text-align: justify;
+    padding:0.5rem;
+ }
+
+ .container a{
+    text-decoration:none ;
+    padding: 5px;
+    font-size: 20px;
+    
+ }
+ a:visited{
+    color: rgb(173, 27, 27);
+    background-color: blue;
+ }
+ a:hover{
+    background-color: aqua;
+    color: aliceblue;
+ }
+
+ .menu{
+   padding-left: 1rem;
+   padding-bottom: 1rem;
+  
+}

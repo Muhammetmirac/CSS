@@ -1,0 +1,36 @@
+.container{
+    background-color: brown;
+    color:black;
+    width: 250px;
+
+}
+.active{
+    background-color: blue;+
+}
+
+.container div{
+text-align: center;
+padding: 0.5rem;
+
+}
+
+.container a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+
+}
+.container a:visited{
+    color: red;
+    
+}
+
+.container div:hover{
+    color: rgb(246, 246, 14);
+    cursor:pointer;
+    background-color: rgb(132, 194, 248);
+}
+
+.container a:hover{
+    background-color: blueviolet;
+}
