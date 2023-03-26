@@ -1,3 +1,7 @@
+nav.menu{
+    display: inline-block;
+}
+
 nav.menu ul{
     list-style-type: none;
     margin: 0;
@@ -8,6 +12,7 @@ nav.menu ul{
 
 nav.menu button{
     display: block;
+    width: 100px;
 }
 
 nav.menu:hover ul{
