@@ -2,8 +2,8 @@
     list-style-type: none;
     
 }
-.menu li{
-    text-decoration: none;
+.menu li a{
+    text-decoration:none;
    
     
 }
