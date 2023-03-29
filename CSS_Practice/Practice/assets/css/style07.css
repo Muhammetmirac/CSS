@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/Practice/assets/img/resim4.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+
+h1{
+    background-color: white;
+   font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+div.aylar{
+    background-color: darkmagenta;
+    display: inline-block;
+    width: 20%;
+    margin-top: rem;
+}
+div h2{
+    background-color: white;
+    text-align: center;
+    
+    
+}
+
+div.mevsim{
+ background-color: rgb(201, 234, 72);
+    
+    display: inline-block;
+    width: 20%;
+}

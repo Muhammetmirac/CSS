@@ -1,0 +1,43 @@
+body{
+    background-image:url(/Practice/assets/img/resim2.jpg ) ;
+    background-position: center;
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    
+}
+
+h1{
+    font-style: italic;
+}
+
+nav.menu {
+    background-color:rgba(184, 135, 11, 0.503);
+    padding: 1rem;
+
+}
+nav.menu a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 1rem;
+   
+}
+nav.menu a:hover{
+  background-color:  rgb(170, 124, 9) ;
+  padding: 1rem;
+}
+
+.icerik{
+    background-color:  rgb(170, 124, 9) ;
+}
+section.icerik p{
+    padding: 1rem;
+}
+
+.tablo h2{
+    font-style: italic;
+}
+
+table,th,td{
+    border: 1px solid black;
+    padding: 0 10px;
+}

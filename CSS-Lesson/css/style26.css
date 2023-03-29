@@ -1,0 +1,25 @@
+nav.menu li{
+    color: rgb(239, 11, 11);
+}
+
+nav.menu > ul > li{
+    color:green
+}
+
+/* büyüktür işareti ile seçiliyorsa sadece 1. dereceden childini seçer. torunlara inmez. */
+
+nav.menu > ul > li > ul > li:nth-child(3) {
+    color:rgb(11, 0, 128)
+}
+
+nav.menu ul li:nth-child(3)~li{
+    background-color: aquamarine;
+}
+
+nav.menu + p {
+    font-size: 1.5rem;
+    
+}
+nav.menu ~ p{
+    color: coral;
+}
