@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around; /* yatay hizalama default row dur*/
+    align-items: stretch ; /*dikey hizalama default strecth dir*/
+    border: 1px solid red;
+    height: 50vh;
+}
+.container div{
+    width: 50px;
+    /* height: 50px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+
+  
+}
+
+.container div:nth-child(1){
+    background-color: aqua;
+}
+.container div:nth-child(2){
+    background-color:blueviolet;
+}
+.container div:nth-child(3){
+    background-color: green;
+}
+.container div:nth-child(4){
+    background-color: goldenrod;
+}
+ 

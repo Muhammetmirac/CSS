@@ -1,0 +1,62 @@
+nav{
+    background-color:rgb(244, 231, 218);
+    display: inline-block;
+}
+.btn-mod{
+    display: none;
+}
+.list{
+    display: none;
+   
+}
+.box{
+    display: block;
+    
+}
+.btn-mod:checked + .list{
+    display:inline-block ;
+    background-color:grey;
+
+}
+.list ul li{
+    list-style-type: "::";
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.list a{
+    text-decoration: none;
+    color:brown;
+}
+.list ul{
+    padding: 0;
+    
+}
+.list ul a{
+    padding: 25px 50px;
+    color: white;
+   
+
+}
+
+
+.list li:hover{
+    background-color: rgb(48, 45, 45);
+    color: white;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

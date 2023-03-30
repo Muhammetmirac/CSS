@@ -1,0 +1,50 @@
+.container div:nth-child(1){
+    background-color: aqua;
+}
+.container div:nth-child(2){
+    background-color:blueviolet;
+}
+.container div:nth-child(3){
+    background-color: green;
+}
+.container div:nth-child(4){
+    background-color: goldenrod;
+}
+.container div:nth-child(5){
+    background-color: rgb(247, 7, 7);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*yatay da aradaki mesafe*/
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 50vh;
+    /* align-items: center; */ /* aşağı kaymalarda align-items yerine align-content kullanılır*/
+    align-content:center;
+    align-items: center;
+}
+
+div.container div:nth-child(1){
+    background-color: aqua;
+    flex: 1 0 100px;
+}
+div.container div:nth-child(2){
+    background-color: coral;
+    
+}
+div.container div:nth-child(3){
+    background-color: chartreuse;
+    
+}
+div.container div:nth-child(4){
+    background-color: blueviolet;
+   
+}
+div.container div:nth-child(5){
+    background-color: rgb(85, 0, 255);
+   
+}
+
+/* flex:... ile verilen değerler kadar sayfayı böler ve o oranda alan verir. Ekran büyüse de küçülse de o oranda verir */
