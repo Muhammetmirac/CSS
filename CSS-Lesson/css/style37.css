@@ -1,0 +1,77 @@
+:root{
+	--color1:#FF774D;
+	--color2:#c88e92;
+	--color3:white;
+	--button-color:#F44336;
+}
+body{
+	font-family: 'Nunito',sans-serif;
+	
+}
+
+.stackfindover{
+	display: flex;
+	background-image: linear-gradient(45deg, var(--color1), var(--color2));
+	padding: 25px 25px 0 25px;
+}
+.stackfindover .logo{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	color:var(--color3);
+	gap: 10px;
+}
+.stackfindover > div:first-child{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 50px;
+	flex: 2 1 300px;
+
+}
+
+.stackfindover > div:first-child img{
+	width: 100%;
+	height: auto;
+}
+
+
+.stackfindover > div:last-child{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center ;
+	text-align: center;
+	flex: 3 1 500;
+
+}
+
+.stackfindover > div:last-child *{
+	margin: 0;
+	padding: 0;
+	color: var(--color3);
+
+}
+
+.stackfindover > div:last-child h2{
+	font-size: 1.5rem;
+	opacity: 0.5;
+}
+
+.stackfindover > div:last-child i{
+	background-color: var(--button-color);
+	padding: 5px 10px;
+	border-radius: 20%;
+
+}
+
+.stackfindover .logo h3{
+	margin: 0;
+	margin-bottom: -5px;
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+.stackfindover .logo span{
+	font-size: 0.8rem;
+}

@@ -1,0 +1,23 @@
+body{
+	background-color: aliceblue;
+	padding: 2rem;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	gap: 4rem;
+}
+
+.menu>div{
+	border:8px solid lightgreen;
+	padding: 2rem;
+	width: 25%;
+	
+	
+}
+.menu>div div{
+	display: flex;
+	justify-content: space-around;
+}

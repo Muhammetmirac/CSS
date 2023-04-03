@@ -1,0 +1,35 @@
+body{
+	background-color: aliceblue;
+	padding: 2rem 0;
+}
+
+section.menu{
+	text-align: center;
+}
+section.menu > div{
+	display: inline-block;
+	width: 25%;
+	margin-right: 3rem;
+	border: 10px solid #056982;
+	padding: 2rem;
+}
+section.menu div span{
+	font-size: 1.4rem;
+	font-weight: 700;
+	color:#D0B2A0;
+	margin-right: 4rem;
+}
+section.menu div a{
+	background-color: #E49135;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	pad: 1rem;
+}
+
+section.menu div a:hover,section.menu {
+	opacity: 0.6;
+
+
+
+}

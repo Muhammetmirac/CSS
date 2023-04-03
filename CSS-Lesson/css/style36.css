@@ -1,0 +1,93 @@
+:root{
+	--color1: lightcoral;
+	--color2: lightpink;
+	--color3: rgb(240, 232, 232);
+	--color4:rgb(23, 22, 22);
+	
+}
+
+
+body{
+	display:flex ;
+	flex-wrap: wrap;
+	font-family: 'Tillana', cursive;
+	
+
+}
+
+div.main-box{
+	flex-wrap: wrap;
+	gap: 5px;
+	background-color: var(--color3);
+	
+}
+
+div.main-box .up-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 ;
+	padding-bottom: 10px;
+	
+		
+}
+
+div.up-box div{
+	border: 1px solid pink;
+	border-radius: 5px;
+	
+}
+
+div.up-box .box1{
+	background-color:var(--color1);
+	flex: 1;
+	color: var(--color1);
+	padding: 10px;
+
+}
+div.up-box .box2{
+	background-color:var(--color2);
+	flex:5;
+	color: var(--color2);
+}
+
+div.main-box .text-box{
+	display: flex;
+	flex: 10;
+	background-color: var(--color3);
+	flex-wrap: wrap;
+	gap: 10px;	
+	
+}
+
+div.main-box .text-box p{
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 900;
+	
+
+}
+
+
+.text-box .red-icon{
+	background-color: var(--color1);
+	flex: 0 0 80px;
+	border-radius: 100%;
+	text-align:center;
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+}
+.text-box .text-1{
+	color: var(--color4);
+	flex: 10;
+	
+}
+
+div.main-box .down-text p{
+	background-color: var(--color3);
+	display: flex;
+	color: var(--color4);
+	flex: 10;
+	margin: 0;
+	padding: 10px;;
+}
